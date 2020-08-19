@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/troelsbunger/Documents/Troels_Net/WhiteBoard/WhiteBoard/WhiteBoard.csproj": {}
+  },
+  "projects": {
+    "/Users/troelsbunger/Documents/Troels_Net/WhiteBoard/WhiteBoard/WhiteBoard.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/troelsbunger/Documents/Troels_Net/WhiteBoard/WhiteBoard/WhiteBoard.csproj",
+        "projectName": "WhiteBoard",
+        "projectPath": "/Users/troelsbunger/Documents/Troels_Net/WhiteBoard/WhiteBoard/WhiteBoard.csproj",
+        "packagesPath": "/Users/troelsbunger/.nuget/packages/",
+        "outputPath": "/Users/troelsbunger/Documents/Troels_Net/WhiteBoard/WhiteBoard/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/troelsbunger/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
